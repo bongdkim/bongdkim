@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 예제</title>
+</head>
+<body>
+    <h1>JavaScript로 동적인 웹 페이지 만들기</h1>
+    <button id="myButton">클릭하세요</button>
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+            document.getElementById("demo").innerHTML = "버튼이 클릭되었습니다!";
+        });
+    </script>
+</body>
