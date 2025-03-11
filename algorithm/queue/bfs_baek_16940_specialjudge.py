@@ -8,3 +8,4 @@ for _ in range(N-1):
     a,b=map(int, input().split())
     adj[a]=b
     adj[b]=a
+g
